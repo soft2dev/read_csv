@@ -3,7 +3,7 @@
 ## Stack
 - Node.js(8)
 - Koa.js(async/await)
-- Mysql Connection
+- Mysql Connection(mysql2)
 - Env Import(dotenv)
 - Logging(chalk)
 - Syntax(eslint)
