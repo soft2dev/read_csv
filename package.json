@@ -1,0 +1,33 @@
+{
+  "name": "crypto-currency-payment-api",
+  "version": "1.0.0",
+  "description": "Cryptocurrency Payment API",
+  "main": "index.js",
+  "author": "soft2dev",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "2",
+    "axios": "^0.18.0",
+    "csvtojson": "^2.0.8",
+    "dotenv": "^4.0.0",
+    "fast-csv": "^2.4.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.2.1",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^4.10.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src nodemon --watch src/ src/index.js"
+  }
+}
